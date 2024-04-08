@@ -1,0 +1,75 @@
+body{
+    background-color: lightblue;
+    text-align: center;
+}
+header{
+    color:darkgreen;
+    margin-top :0px;
+    padding-top :0px;
+    border-bottom: solid 3px cornflowerblue;
+    margin-bottom: 10px;
+}
+
+footer{
+    font-size: 80%;
+    color: gray;
+    border-top: solid 3px cornflowerblue;
+    margin-top:10px;
+    padding-top: 5px;
+}
+
+p{
+    text-align: start;
+}
+
+.form{
+    margin: auto;
+    width: fit-content;
+    padding :10px;
+    background-color: aliceblue;
+}
+
+input[type="text"]:not(.old){
+    width: 100%;
+    border-radius: 3px;
+    border: solid 1px gray;
+    box-shadow: 1px 1px 2px gray;
+}
+select{
+    width: 100%;
+    border-radius: 3px;
+    border: solid 1px gray;
+    box-shadow: 1px 1px 2px gray;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 3px;
+    border: solid 1px gray;
+    box-shadow: 1px 1px 2px gray;
+}
+
+button{
+    padding :3px 6px ;
+    border-radius: 3px;
+    border: solid 1px gray;
+}
+
+.required::after {
+    content: "必須";
+    color: #ffffff;
+    background: #cc0000;
+    font-size: 0.9em;
+    padding: 0.1em ,0.2em;
+    border-radius: 0.3em;
+    margin-left:0.5em;
+}
+
+.old{
+    width: auto;
+    border-radius: 3px;
+    border: solid 1px gray;
+    box-shadow: 1px 1px 2px gray;
+    text-align: center;
+    padding:0px 0px;
+}

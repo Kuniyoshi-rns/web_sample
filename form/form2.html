@@ -1,0 +1,63 @@
+<!DOCUTYPE html>
+<head>
+    <meta charset = "UTF-8">
+    <title>アンケート</title>
+    <link rel="stylesheet" href="css/form2.css">
+</head>
+<body>
+    <header>アンケート</header>
+
+    <div class = "form">
+
+        <p>Axizの研修をご利用いただき、誠にありがとうございます。
+            <br>以下の内容の記入及び送信をして頂けると幸いです。
+        </p>
+
+        <p>
+            <span class="required">会社名</span><br>
+            <input type="text" placeholder="例)株式会社テクノコア" required>
+        </p>
+
+        <p><span class="required">お名前</span><br>
+            <input type="text" placeholder="例)手久野 興亜" required>
+        </p>
+        
+        <p>メールアドレス<br>
+            <input type="text" placeholder="example@axiz.co.jp">
+        </p>
+
+        <p>年齢<br>
+            <input type="text" size="5" class="old" value="21">
+        </p>
+        
+        <p>受講コース<br>
+            <input type="radio" name="course" value="Java" checked>Java　<input type="radio" name="course" value="infrastructures">インフラ
+        </p>
+
+        <p>会場<br>
+            <select name="年齢">
+                <option value="A"selected>日本橋A教室</option>
+                <option value="Oki">沖縄教室</option>
+            </select>
+        </p>
+
+        <p>詳しく学びたい内容(複数回答可)<br>
+            <input type="checkbox" name="kwsk" value="biz">ビジネスマナー<br>
+            <input type="checkbox" name="kwsk" value="html/css">HTML/CSS<br>
+            <input type="checkbox" name="kwsk" value="js">JavaScript <br>
+            <input type="checkbox" name="kwsk" value="java">Java <br>
+            <input type="checkbox" name="kwsk" value="db">データベース<br>
+            <input type="checkbox" name="kwsk" value="linux">Linux <br>
+        </p>
+
+        <p>ご意見<br>
+            <textarea name="free" rows="10">自由にご記入ください。</textarea>
+        </p>
+
+        <div class="button">
+            <p><button type="submit">送信する</button></p>
+        </div>
+    </div>
+    <footer>Copyright(C) AxiZ</footer>
+</body>
+

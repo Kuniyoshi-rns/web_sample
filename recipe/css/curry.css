@@ -1,0 +1,43 @@
+body{
+    background-image:url("../images/bg_Argyle.jpg");
+}
+
+.curry_img{
+    display: inline-block;
+    padding:0px;
+    border: double 10px orange;
+}
+
+.curry{
+    text-align: center;
+}
+
+table{
+    background-color:papayawhip;
+    border: solid 3px orange;
+}
+
+table th{
+    border: solid 0px orange;
+    font-weight:normal;
+    text-align: left;
+}
+
+table td{
+    padding-right: 30px;
+    border: solid 3px orange;
+}
+
+table caption{
+    color: orange;
+}
+
+.chocolate{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.5 / 1;
+}
+.onepoint{
+    display: flex;
+    justify-content:flex-start;
+}
